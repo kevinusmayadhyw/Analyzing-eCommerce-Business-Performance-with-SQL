@@ -10,7 +10,7 @@ CREATE TABLE customers_dataset (
 );
 
 COPY customers_dataset(customer_id, "customer_unique_id", "customer_zip_code_prefix", "customer_city", "customer_state")
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\customers_dataset.csv'
+FROM '..\Dataset\customers_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -24,7 +24,7 @@ CREATE TABLE geolocations_dataset (
 );
 
 COPY geolocations_dataset(geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city, geolocation_state)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\geolocation_dataset.csv'
+FROM '..\Dataset\geolocation_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -40,7 +40,7 @@ CREATE TABLE order_items_dataset (
 );
 
 COPY order_items_dataset(order_id, order_item_id, product_id, seller_id, shipping_limit_date, price, freight_value)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\order_items_dataset.csv'
+FROM '..\Dataset\order_items_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -54,7 +54,7 @@ CREATE TABLE payments_dataset (
 );
 
 COPY payments_dataset(order_id, payment_sequential, payment_type, payment_installments, payment_value)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\order_payments_dataset.csv'
+FROM '..\Dataset\order_payments_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -70,7 +70,7 @@ CREATE TABLE reviews_dataset (
 );
 
 COPY reviews_dataset(review_id, order_id, review_score, review_comment_title, review_comment_message, review_creation_date, review_answer_timestamp)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\order_reviews_dataset.csv'
+FROM '..\Dataset\order_reviews_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -88,7 +88,7 @@ CREATE TABLE orders_dataset (
 );
 
 COPY orders_dataset(order_id, customer_id, order_status, order_purchase_timestamp, order_approved_at, order_delivered_carrier_date, order_delivered_customer_date, order_estimated_delivery_date)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\orders_dataset.csv'
+FROM '..\Dataset\orders_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -108,7 +108,7 @@ CREATE TABLE products_dataset (
 );
 
 COPY products_dataset(product_no, product_id, product_category_name, product_name_lenght, product_description_lenght, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\product_dataset.csv'
+FROM '..\Dataset\product_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -122,7 +122,7 @@ CREATE TABLE sellers_dataset (
 );
 
 COPY sellers_dataset(seller_id, seller_zip_code_prefix, seller_city, seller_state)
-FROM 'E:\Rakamin\JAP\Mini Project\Analyzing eCommerce Business Performance with SQL\Dataset\sellers_dataset.csv'
+FROM '..\Dataset\sellers_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
