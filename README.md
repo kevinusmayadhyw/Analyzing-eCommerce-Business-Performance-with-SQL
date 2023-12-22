@@ -59,13 +59,26 @@ Code : [2_Annual_Customer_Activity_Growth_Analysis](https://github.com/kevinusma
 The success of an eCommerce business is inherently tied to the products it offers. Analyzing the quality of products in eCommerce can offer insights for making decisions to enhance business development. This stage will involve analyzing the performance of each existing product category and exploring its correlation with company revenue. In this stage, the analysis will involve the following steps:
 1. Table containing information on the company's total income/revenue for each year.
 ![revenue total](img/revenue_total.png)
-The total income has shown a consistent increase from year to year. Despite the lower Monthly Active Users (MAU) count in 2018 compared to 2017, the total revenue for 2018 exceeded that of 2017. This increase may be attributed to a growth in the number of customers during that period.
+The total income has shown a consistent increase from year to year. Despite the lower Monthly Active Users (MAU) count in 2018 compared to 2017, the total revenue for 2018 exceeded that of 2017. This increase may be attributed to a growth in the number of customers during that period. In 2016 the company was in its initial stages, with a relatively small customer base, resulting in significantly lower revenue compared to subsequent years.
+
 2. Visualization of information on the total number of canceled orders for each year.
-![total canceled](img/total_order_canceled_byyear.png)
+![total canceled product](img/total_order_canceled_byyear.png)
+Similar to the total revenue trend, the number of canceled orders follows a similar increase, and this is also influenced by the growing total number of customers.
+
 3. Visualization of the names of product categories that generate the highest total revenue for each year.
+![total revenue product](img/revenue_product.png)
+Annually, there is an upward trend in the maximum income generated from top products. Additionally, there are variations in the types of top products each year. In 2016, the furniture_decor category was the highest revenue-generating product, while in 2017, it was the bed_bath_table category, and in 2018, the health_beauty category took the lead.
+
 4. Visualization of the names of product categories with the highest number of canceled orders for each year.
 ![total product canceled](img/total_order_canceled.png)
+Similar to the revenue trend, the highest number of cancellations from product categories has increased every year. In 2018, both the top revenue-generating and canceled items belonged to the health_beauty category. This suggests that the health_beauty category is a product that experiences massive purchases by customers.
+
 5. Combine the information that has been obtained into one table display
 ![table merge](img/table_annualProductCategoryQualityAnalysis.png)
+- In 2016, the total revenue and total canceled orders were at their lowest. The furniture_decor category had the highest revenue among other products, while the toys category had the highest number of cancellations this year.
+
+- In 2017, bed_bath_table was the product category with the highest revenue, while sports_leisure had the highest number of cancellations this year.
+
+- In 2018 the total revenue and total canceled orders were at their highest. The health_beauty category emerged as the product with the highest revenue as well as the highest number of cancellations during this year.
 
 still on progress...
