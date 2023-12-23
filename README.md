@@ -81,4 +81,9 @@ Similar to the revenue trend, the highest number of cancellations from product c
 
 - In 2018 the total revenue and total canceled orders were at their highest. The health_beauty category emerged as the product with the highest revenue as well as the highest number of cancellations during this year.
 
-still on progress...
+## Stage 4: Analysis of Annual Payment Type Usage
+E-commerce businesses typically offer an open-payment-based system that allows customers to choose from various available payment types. Analyzing the performance of existing payment types can provide insights for establishing better strategic partnerships with companies providing payment services. This stage will involve analyzing the types of payments available and examining the changing trends that have occurred over the last few years. 
+
+![payment type](img/payment_type.png)
+- Annually, the usage of all payment types generally shows an increasing trend, except for payments using vouchers. This decrease in voucher usage may be attributed to the possibility that more vouchers were distributed by companies in 2017 compared to 2018.
+- Payment via credit card stands out as the most preferred payment type, significantly surpassing other payment methods. This preference could be influenced by special promotions for credit card usage or the practicality associated with this payment method compared to others.
